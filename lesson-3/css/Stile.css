@@ -1,32 +1,30 @@
 body{
   background:rgb(0, 0, 0);}
   h1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3em;
     color: red;
     padding: 120px
   }
   h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2.5em;
     color:darkorchid;
     padding: 70px;
   }
   h3{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2.0em;
     color:darkorchid;
     padding: 70px;
   }
   ul{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.8em;
     color:aqua;
     padding: 50x;
   }
   a{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.4em;
     color:rgb(3, 153, 108);
     padding: 50x;
+  }
+  h1,h2,h3,ul,a {
+    font-family: Georgia, 'Times New Roman', Times, serif
   }

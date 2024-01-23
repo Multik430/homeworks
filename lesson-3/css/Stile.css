@@ -3,27 +3,31 @@ body{
   h1{
     font-size: 3em;
     color: red;
-    padding: 120px
+    margin-left: 240px; 
   }
   h2{
     font-size: 2.5em;
     color:darkorchid;
     padding: 70px;
+    margin-left: 480px;
   }
   h3{
     font-size: 2.0em;
     color:darkorchid;
     padding: 70px;
+    margin-left: 240px;
   }
   ul{
     font-size: 1.8em;
     color:aqua;
     padding: 50x;
+    margin-left: 140px;
   }
   a{
     font-size: 1.4em;
     color:rgb(3, 153, 108);
     padding: 50x;
+    margin-left: 480px
   }
   h1,h2,h3,ul,a {
     font-family: Georgia, 'Times New Roman', Times, serif

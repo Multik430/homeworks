@@ -1,15 +1,33 @@
-.first {
+h1 {
+  width: 100%;
   text-align: center;
-  display: inline-block;
-  width: 500px;
-  background-color: aliceblue;
-  padding: 100px;
-  margin-left: 1400px;
-  margin-top: 200px;
-  font-size: 50px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  display: inline-block;
-  span:first-child {
-    color: rgb(128, 0, 0);
-  }
+  font-size: 40x;
+  color: rgb(0, 0, 0);
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto
+}
+
+
+.card {
+  text-align: center;
+  width: 200px;
+  height: 300px;
+  float: left;
+}
+
+.card > p {
+  font-weight: 600;
+font-size: 20px;
+}
+.red {
+  color:red;
+}
+
+.card > img {
+  
+
 }

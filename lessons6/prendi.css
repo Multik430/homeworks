@@ -1,2 +1,7 @@
-.first, {display: inline-block; width: 400px;
-}
+body{
+  background:rgb(255, 255, 255);}
+  h1{
+    font-size: 3em;
+    color: red;
+    margin-left: 240px; 
+  }

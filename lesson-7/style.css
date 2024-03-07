@@ -15,13 +15,14 @@ button:focus {
 }
 .header-img {
   display: inline-block;
-  width: 39%;
+  width: 45%;
   vertical-align: middle;
 }
 .header-text {
   display: inline-block;
-  width: 60%;
+  width: 50%;
   vertical-align: middle;
+  margin-left: 50px;
 }
 .header-text__title {
   font-size: 48px;
@@ -57,4 +58,37 @@ button:focus {
   color: orangered;
   background-color: transparent;
   border: 2px solid orangered;
+}
+.section-title {
+  margin-bottom: 97px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: center;
+}
+.features {
+  padding-top: 90px;
+  padding-bottom: 99px;
+  background-color: #f2f2f2;
+
+}
+.features-wrap::after {
+content: '';
+display: table;
+clear: both;
+}
+.features-block {
+  display: inline-block;
+  text-align: center;
+  width: 25%;
+  float: left;
+}
+.features-block__img {
+  min-height: 25px;
+  margin-bottom: 23px;
+}
+.features-block__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
 }

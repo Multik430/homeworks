@@ -3,12 +3,12 @@ body {
   font-family: 'Tahoma', sans-serif;
   color: #000;
 }
+img {
+  max-width: 100%;
+}
 .header {
   padding-top: 77px;
   padding-bottom: 96px;
-}
-.header-img {
- 
 }
 .header-text__title {
   margin-bottom: 15px;
@@ -33,6 +33,7 @@ body {
   font-weight: 400;
 }
 .button {
+  margin-bottom: 20px;
   border: 3px solid transparent;
   border-radius: 5px;
   background-color: #f05a22;
@@ -46,4 +47,39 @@ body {
   background-color: transparent;
   border: 3px solid #f05a22;
   color: #f05a22;
+}
+
+.features {
+  background-color: #f2f2f2;
+  padding-top: 89px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.section-title {
+  margin-bottom: 91px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.features__img {
+  min-height: 65px;
+}
+.features__text {
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+.buyer-block {
+  margin-top: 50px;
+  text-align: center;
+}
+.buyer-text__title {
+  margin-bottom: 50px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.buyer-block__img {
+  width: 150px 150px;
+  margin-top: 25px;
 }

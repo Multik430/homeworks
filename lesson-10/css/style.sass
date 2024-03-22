@@ -1,0 +1,68 @@
+$gray: #666
+$black: #131313
+$korob: inline-block
+$rgba: rgba(255, 255, 255, 0.1)
+$lih: 16px
+@mixin malo
+  display: block
+  margin-top: 56px
+  line-height: 16px
+  font-size: 10px
+  max-width: 80%
+@mixin  dada
+  border-radius: 50%
+  line-height: 42px
+  margin-left: 10px
+.footer
+  margin-top: 60px
+  background-color: #131313
+  padding: 59px 0
+  color: $gray
+
+  &-policy-link
+    font-size: 12px
+
+  & p
+    margin-bottom: 14px
+
+  & a
+    color: $gray
+    text-decoration: none
+
+    &:hover
+      color: #fff
+
+  & small
+    +malo
+
+  & ul
+    padding: 0
+    list-style: none
+
+    &  li
+      line-height: $lih*2
+  &-contacts, &-social-links
+    text-align: right
+
+  &-contacts_phone
+    font: 
+      weight: 400
+      size: 20px
+    color: #009adf
+
+  &-social-links li
+    display: $korob
+
+    & a
+      display: $korob
+      width: 42px
+      height: 42px
+      background-color: $rgba
+      text-align: center
+      +dada
+      transition: all 0.2s
+      transition: all 0.2s
+
+      &:hover
+        background-color: rgba($rgba, 0.9)
+        color: $black

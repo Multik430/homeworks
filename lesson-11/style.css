@@ -1,0 +1,41 @@
+h1 {
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.block {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  height: 210px;
+  background-color:aliceblue
+}
+.element {
+  align-items:center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex-basis: 20%;
+}
+img {
+  height: 100%;
+}
+.element_name {
+  margin-top: 50px;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.element_price {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.element > button {
+  color:#23BAC1;
+  background-color: transparent;
+  border: 1px solid #23BAC1;
+  padding: 20px 60px;
+  font-size: 20px;
+}
